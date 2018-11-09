@@ -1,7 +1,15 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
-    ext.kotlin_version = '1.2.71'
+    ext {
+        kotlin_version = '1.2.71'
+        glideVersion = '4.8.0'
+        roomVersion = '2.1.0-alpha02'
+        materialVersion = '1.0.0'
+        daggerVersion = '2.14.1'
+        retrofitVersion = '2.3.0'
+        okhttpVersion = '3.6.0'
+    }
     repositories {
         google()
         jcenter()
